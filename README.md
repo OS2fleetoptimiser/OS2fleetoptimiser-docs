@@ -1,6 +1,6 @@
-# Documentation template for OS2 projects
+# FleetOptimiser OS2 Documentation
 
-## 🏗️ Getting started 
+## ️ Getting started 
 
 This is a *bare-minimum* template to create a [Jekyll][Jekyll] site that:
 
