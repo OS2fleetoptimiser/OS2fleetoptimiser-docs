@@ -19,6 +19,6 @@ Running FleetOptimiser in developer mode is easy and can be done in multiple way
 In addition to the description of how to run FleetOptimiser, we also offer extraction modules to fleet management systems that loads and aggregate driving-data. 
 For more details go the [Extractors] page.
 
-[Extractors]: extractors.html
-[Production]: production.html
-[Developing]: developing.html
+[Extractors]: extractors.md
+[Production]: production.md
+[Developing]: developing.md

@@ -128,5 +128,5 @@ docker run -p 6379:6379 redis -d
 npm run dev
 ```
 
-See [production](production.html) for environment variables for the backend. 
+See [production](production.md) for environment variables for the backend. 
 

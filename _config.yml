@@ -8,3 +8,6 @@ logo: /assets/fologos.png
 
 aux_links:
   FleetOptimiser OS2: https://github.com/OS2fleetoptimiser/OS2fleetoptimiser
+
+plugins:
+  - jekyll-relative-links
