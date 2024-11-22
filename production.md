@@ -15,8 +15,8 @@ Webproxy is optional, but if used, proxy set headers must be forwarded.
 
 ### Prerequisites 
 - Environment capable of running docker and compose
-- Keycloak, a FleetOptimiser realm and client
-- Access to a database or mapping to a volume containing a db file
+- Keycloak, with a FleetOptimiser realm and client
+- Access to a database (recommended) or mapping to a volume containing a db file
 
 ### Images 
 We need the following images in order to run FleetOptimiser 
