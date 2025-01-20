@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# FleetOpimiser OS2 Documentation
+# FleetOptimiser OS2 Documentation
 
 Welcome to the main documentation repo of FleetOptimiser OS2. The most important stuff in order to get up and running will be explained here.
 There are two main ways of running FleetOptimiser; as development with one or more services running as containers or as production where all services will be containerised.
