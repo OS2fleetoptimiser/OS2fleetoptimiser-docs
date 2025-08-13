@@ -22,7 +22,9 @@ Use the `docker-compose-extractor.yaml` file and define the functions you want t
 | set-roundtrips   | loads, aggregate and save roundtrips | 
 | clean-roundtrips | deletes X (keep_data in DB) month old roundtrips |
 
-
+The FleetComplete extractor has on the `set-vehicles` method, an additional `--exempt-locations` flag, 
+which is set in the occasion that one wants to opt out on relying on location updates from the 
+FleetComplete api. 
 
 ```
 entrypoint: ["/bin/sh", "-c", "python -m fleetmanager.extractors.fleetcomplete set-starts && python -m fleetmanager.extractors.fleetcomplete set-vehicles && python -m fleetmanager.extractors.fleetcomplete set-roundtrips && python -m fleetmanager.extractors.fleetcomplete clean-roundtrips"]
